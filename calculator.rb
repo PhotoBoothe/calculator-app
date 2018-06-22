@@ -14,7 +14,11 @@ end
 	p multiply(4,2)
 
 def divide(num1,num2)
+if num2.nonzero? != nil
 num1/num2
+else 
+	puts "You can't divide by zero."
+end
 
 	end
-	p divide(6,2)
+	p divide(4,0)
